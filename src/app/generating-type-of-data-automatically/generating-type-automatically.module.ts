@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { GeneratingTypeOfDataAutomaticallyRoutingModule } from './generating-type-data-automatically-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -9,7 +10,8 @@ import { GeneratingTypeOfDataAutomaticallyRoutingModule } from './generating-typ
   ],
   imports: [
     CommonModule,
-    GeneratingTypeOfDataAutomaticallyRoutingModule
+    GeneratingTypeOfDataAutomaticallyRoutingModule,
+    HttpClientModule
   ],
   providers: [],
 })
